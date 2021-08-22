@@ -4,7 +4,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <a class="navbar-brand" href="#">VANTHEAV</a>
+      <a class="navbar-brand" href="#">KCN</a>
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item active">
           <a class="nav-link" href="?page=home">Home <span class="sr-only">(current)</span></a>
@@ -20,6 +20,15 @@
         </li>
       </ul>
       <div class="form-inline my-2 my-lg-0">
+        <form class="form-inline my-2 my-lg-0" method="post">
+          <select class="custom-select" name="type">
+              <option value="">Sort</option>
+              <option value="1" name="0-9">0-9</option>
+              <option value="2" name="9-0">9-0</option>
+              <option value="3" name="a-z">a-z</option>
+              <option value="3" name="z-a">z-a</option>
+          </select>
+        </form>
       <a class="nav-link" href="?page=create"><button type="button" class="btn btn-primary">Create</button></a>
       </div>
     </div>

@@ -12,6 +12,8 @@
             include_once('pages/technology.php');
         }elseif ($_GET['page'] == "create"){
             include_once('process/create.php');
+        }elseif ($_GET['page'] == "search"){
+            include_once('pages/search.php');
         }
     }else {
         include_once('pages/home.php');
